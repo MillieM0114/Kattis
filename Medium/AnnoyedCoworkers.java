@@ -1,3 +1,4 @@
+package Medium;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 

@@ -1,12 +1,13 @@
+package Easy;
+
 import java.util.Scanner;
 
-public class Autori {
+public class R2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
-        String input = scan.nextLine().replaceAll("[^A-Z]", "");
+        int R = scan.nextInt();
+        int S = scan.nextInt();
         scan.close();
-
-        System.out.println(input);
+        System.out.print(2*S - R);
     }
 }
